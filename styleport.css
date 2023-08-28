@@ -1,0 +1,88 @@
+.Con{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: grid;
+	grid-template-rows: repeat(12, 1fr);
+	grid-template-columns: repeat(11, 1fr);
+	grid-gap: 10px;
+} 
+.Con div{
+	background-color: pink;
+	font-size: 1.5rem;
+}
+#head{
+	grid-column: 1/12;
+	grid-gap: 10px 10px;
+	display: flex;
+	align-content: flex-start;
+	
+}
+#side{
+	grid-row: 2/12;
+	grid-column: 1/4;
+	text-align: center;
+	font-weight: bold;
+
+}
+#nav{
+	grid-row-start: 2;
+	grid-column: 4/10;
+}
+#ads{
+	grid-row: 2/12;
+	grid-column: 10/12;
+	text-align: center;
+	font-weight: bold;
+}
+ul{
+	font-size: 15px;
+	text-align: left;
+}
+#main{
+	grid-row: 3/12;
+	grid-column: 4/10;
+	padding: 10px;
+	text-align: center;
+}
+img{
+	height: 180px;
+	width: 100px;
+	width: 20%;
+	border-radius: 30%;
+	box-shadow: 2px 4px 20px black;
+	margin: 5px;
+	position: relative;
+	border-image: 2px solid balck;
+}
+#foot{
+	grid-column: 1/12;
+	font-size: 10px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	margin: 5px;
+	margin-left: 100px;
+}
+input[type="Search"]{
+	height: 30px;
+	width: 400px;
+	margin-left:550px ;
+	border: 2px solid black;
+	border-radius:20px ;
+	box-shadow: 2px 4px 18px black;
+}
+button{
+	height: 30px;
+	width: 100px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	box-shadow: 2px 4px 12px black;
+}
+img:hover{
+	box-shadow: 0 0 40px black;
+	border-radius: 50%;
+	width: 200px;
+}
