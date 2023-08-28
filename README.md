@@ -1,2 +1,2 @@
 # Portfolio internship Bharat Intern 
-In this project used HTML CSS 
+Portfolio Creating a simple project using HTML CSS 
